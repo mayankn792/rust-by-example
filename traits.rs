@@ -28,5 +28,5 @@ fn pick_random() -> Box<dyn Animal> {
 
 fn main() {
     let animal = pick_random();
-    println!("you pick - {}", animal.noise());
+    println!("your pick - {}", animal.noise());
 }
