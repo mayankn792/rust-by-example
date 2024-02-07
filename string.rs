@@ -1,5 +1,5 @@
 fn main() {
-    let s = String::from("Hello");
+    let mut s = String::from("Hello");
     println!("{}", s);
 
     s.push('c');
@@ -7,8 +7,4 @@ fn main() {
 
     s.push_str(" this is string");
     println!("{}", s);
-    
-    let second_char = s.chars().nth(2)
-    println!("{}", second_char)
-
 }
